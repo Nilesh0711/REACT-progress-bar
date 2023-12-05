@@ -1,0 +1,25 @@
+.progress {
+    height: 20px;
+    background-color: rgb(233, 236, 239);
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress span {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    justify-content: center;
+    width: 100%;
+}
+
+.progress div {
+    background-color: #00c251;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
